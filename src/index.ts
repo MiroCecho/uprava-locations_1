@@ -9,12 +9,13 @@ import { defaults as defautInteractions } from "ol/interaction";
 import "./style/ol.css";
 import "./style/custom.css";
 import { Overlay } from "ol";
+import { Pixel } from "ol/pixel";
 
-const container = document.getElementById('popup');
-const content = document.getElementById('popup-content');
-const closer = document.getElementById('popup-closer');
+const container:HTMLElement = document.getElementById("popup");
+const content:HTMLElement = document.getElementById("popup-content");
+const closer:HTMLElement = document.getElementById("popup-closer");
 
-const overlay = new Overlay({
+const overlay:Overlay = new Overlay({
     element: container,
     autoPan: {
         animation: {
@@ -22,6 +23,7 @@ const overlay = new Overlay({
         },
     },
 });
+// tslint:disable-next-line: typedef
 closer.onclick = function () {
     overlay.setPosition(undefined);
     closer.blur();
@@ -44,8 +46,8 @@ export const map: Map = new Map({
         projection: get("EPSG:3857"),
     })
 });
-map.on('singleclick', function (evt) {
-    const coordinate = evt.coordinate;
+map.on("singleclick", evt=> {
+    const coordinate:Pixel = evt.coordinate;
     content.innerHTML = `<div id="popup-content" style="width: 200px;"><div id="eam-info-list"><ul><li title="23" idx="0">23</li><li title="Funkčné miesto 66" idx="1">Funkčné miesto 66</li><li title="A_Funkčné miesto" idx="2">A_Funkčné miesto</li></ul></div></div>`;
     overlay.setPosition(coordinate);
 });
