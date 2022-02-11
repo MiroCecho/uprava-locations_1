@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "outDir": "./public/",
+      "sourceMap": true,
+      "noImplicitAny": false,
+      "module": "CommonJS",
+      "target": "es5",
+      "jsx": "react",
+      "allowJs": true,
+      "moduleResolution": "node"
+    }
+  }

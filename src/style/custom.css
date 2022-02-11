@@ -1,0 +1,106 @@
+
+.mapCompositions {
+    top: .5em;
+    right: .5em;
+    z-index: 1000;
+    cursor: pointer;
+    margin: 10px;
+    position: absolute;
+    right: 0px;
+    top:0px
+}
+.mapCompositions div{
+    float: left
+}
+ .mapCompositions div div {
+        direction: ltr;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+        font-family: Roboto, Arial, sans-serif;
+        font-size: 11px;
+        font-weight: 500;
+        user-select: none;
+        padding: 8px;
+        border-bottom-left-radius: 2px;
+        border-top-left-radius: 2px;
+        background-clip: padding-box;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+        min-width: 56px;
+        background-color: rgb(255, 255, 255);
+        background-clip: padding-box;
+        -webkit-background-clip: padding-box;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+        color: rgb(86, 86, 86)
+    }
+
+.mapCompositions div div.selected {
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+        }
+        .ol-popup {
+            position: absolute;
+            background-color: white;
+            -webkit-filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+            filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+            padding: 10px;
+            border-radius: 15px;
+            border: 1px solid #cccccc;
+            bottom: 12px;
+            left: -50px;
+        }
+        
+            .ol-popup:after, .ol-popup:before {
+                top: 100%;
+                border: solid transparent;
+                content: " ";
+                height: 0;
+                width: 0;
+                position: absolute;
+                pointer-events: none;
+            }
+        
+            .ol-popup:after {
+                border-top-color: white;
+                border-width: 10px;
+                left: 48px;
+                margin-left: -10px;
+            }
+        
+            .ol-popup:before {
+                border-top-color: #cccccc;
+                border-width: 11px;
+                left: 48px;
+                margin-left: -11px;
+            }
+        
+        .ol-popup-closer {
+            text-decoration: none;
+            position: absolute;
+            top: 2px;
+            right: 8px;
+        }
+        .ol-popup-closer:after {
+            content: "✖";
+        }
+        .fntLog {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            white-space: nowrap
+        }
+        .fntLog12 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            white-space: nowrap
+        }
+        .tooltip {
+            position: relative;
+            padding: 3px;
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            opacity: 0.7;
+            white-space: nowrap;
+            font: 10pt sans-serif;
+          }
+          
+ 

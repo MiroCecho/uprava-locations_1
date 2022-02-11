@@ -1,0 +1,499 @@
+[
+  {
+    "id": 25005,
+    "parentId": 0,
+    "name": "Ubytovňa Dobrá Voda 30.11.2021",
+    "typeName": "Ubytovňa",
+    "description": "test",
+    "gpsLat": 48.604653,
+    "gpsLong": 17.53928819312122,
+    "children": [
+      {
+        "id": 25039,
+        "parentId": 25005,
+        "name": "Umiestnenie 14.12.2021",
+        "typeName": "Budova",
+        "description": null,
+        "gpsLat": 48.604653,
+        "gpsLong": 17.53928819312122,
+        "children": null
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "parentId": 0,
+    "name": "SLN-BB",
+    "typeName": "Budova",
+    "description": "Bbb",
+    "gpsLat": 49.5412,
+    "gpsLong": 51.1254,
+    "children": null
+  },
+  {
+    "id": 24071,
+    "parentId": 0,
+    "name": "Zolova tajná miestnosť odtajnená33",
+    "typeName": "Miestnosť",
+    "description": "XXX",
+    "gpsLat": 17.415154,
+    "gpsLong": 12.1548144,
+    "children": null
+  },
+  {
+    "id": 23779,
+    "parentId": 0,
+    "name": "A_Umiestnenie 1",
+    "typeName": "Umiestnenie",
+    "description": null,
+    "gpsLat": 48.1524642,
+    "gpsLong": 17.1159001,
+    "children": [
+      {
+        "id": 24705,
+        "parentId": 23779,
+        "name": "A_Budova 111",
+        "typeName": "Budova",
+        "description": null,
+        "gpsLat": 48.1524642,
+        "gpsLong": 17.1159001,
+        "children": [
+          {
+            "id": 24980,
+            "parentId": 24705,
+            "name": "Nová Budova 3",
+            "typeName": "Budova",
+            "description": null,
+            "gpsLat": 48.1524642,
+            "gpsLong": 17.1159001,
+            "children": [
+              {
+                "id": 25055,
+                "parentId": 24980,
+                "name": "Budova skladu 10",
+                "typeName": "Budova",
+                "description": null,
+                "gpsLat": 48.1524642,
+                "gpsLong": 17.1159001,
+                "children": [
+                  {
+                    "id": 25088,
+                    "parentId": 25055,
+                    "name": "Budova kina",
+                    "typeName": "Budova",
+                    "description": null,
+                    "gpsLat": 48.1524642,
+                    "gpsLong": 17.1159001,
+                    "children": null
+                  },
+                  {
+                    "id": 25091,
+                    "parentId": 25055,
+                    "name": "Budova kina cajla",
+                    "typeName": "Budova",
+                    "description": null,
+                    "gpsLat": 48.1524642,
+                    "gpsLong": 17.1159001,
+                    "children": null
+                  },
+                  {
+                    "id": 25089,
+                    "parentId": 25055,
+                    "name": "Budova kina 2",
+                    "typeName": "Budova",
+                    "description": null,
+                    "gpsLat": 48.1524642,
+                    "gpsLong": 17.1159001,
+                    "children": null
+                  }
+                ]
+              },
+              {
+                "id": 25014,
+                "parentId": 24980,
+                "name": "Budova skladu 1336-820",
+                "typeName": "Budova skladu",
+                "description": "Administratívna budova, Sidónie Sakalovej 199, Bytča abc",
+                "gpsLat": 48.1524642,
+                "gpsLong": 17.1159001,
+                "children": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 24530,
+        "parentId": 23779,
+        "name": "A_Budova 1",
+        "typeName": "Budova",
+        "description": null,
+        "gpsLat": 48.1524642,
+        "gpsLong": 17.1159001,
+        "children": [
+          {
+            "id": 22623,
+            "parentId": 24530,
+            "name": "Budova1",
+            "typeName": "Budova",
+            "description": null,
+            "gpsLat": 48.1524642,
+            "gpsLong": 17.1159001,
+            "children": [
+              {
+                "id": 24988,
+                "parentId": 22623,
+                "name": "Budova 23.11.2021",
+                "typeName": "Budova",
+                "description": null,
+                "gpsLat": 48.170631,
+                "gpsLong": 17.071875,
+                "children": null
+              },
+              {
+                "id": 24904,
+                "parentId": 22623,
+                "name": "Budova 28.9.2021_TEST_001",
+                "typeName": "Budova",
+                "description": "Test7",
+                "gpsLat": 48.170631,
+                "gpsLong": 17.071875,
+                "children": null
+              },
+              {
+                "id": 24987,
+                "parentId": 22623,
+                "name": "Budova 23.11.2021",
+                "typeName": "Budova",
+                "description": null,
+                "gpsLat": 48.170631,
+                "gpsLong": 17.071875,
+                "children": null
+              },
+              {
+                "id": 22625,
+                "parentId": 22623,
+                "name": "2. NP",
+                "typeName": "Poschodie",
+                "description": null,
+                "gpsLat": 48.170631,
+                "gpsLong": 17.071875,
+                "children": null
+              },
+              {
+                "id": 22624,
+                "parentId": 22623,
+                "name": "1. NP",
+                "typeName": "Poschodie",
+                "description": null,
+                "gpsLat": 48.170631,
+                "gpsLong": 17.071875,
+                "children": [
+                  {
+                    "id": 22626,
+                    "parentId": 22624,
+                    "name": "M 0.1",
+                    "typeName": "Miestnosť",
+                    "description": "Kancelaria",
+                    "gpsLat": 48.170631,
+                    "gpsLong": 17.071875,
+                    "children": null
+                  }
+                ]
+              },
+              {
+                "id": 24659,
+                "parentId": 22623,
+                "name": "Umiestnenie - Testovacia budova",
+                "typeName": "Budova",
+                "description": null,
+                "gpsLat": 48.170631,
+                "gpsLong": 17.071875,
+                "children": [
+                  {
+                    "id": 24929,
+                    "parentId": 24659,
+                    "name": "Umiestnenie budova 12.10.2021",
+                    "typeName": "Budova",
+                    "description": "test",
+                    "gpsLat": 48.170631,
+                    "gpsLong": 17.071875,
+                    "children": [
+                      {
+                        "id": 25050,
+                        "parentId": 24929,
+                        "name": "Budova 27.12.2021",
+                        "typeName": "Budova",
+                        "description": "test",
+                        "gpsLat": 48.170631,
+                        "gpsLong": 17.071875,
+                        "children": null
+                      },
+                      {
+                        "id": 24935,
+                        "parentId": 24929,
+                        "name": "Poschodie 15.10.2021",
+                        "typeName": "Poschodie",
+                        "description": "test",
+                        "gpsLat": 48.170631,
+                        "gpsLong": 17.071875,
+                        "children": null
+                      }
+                    ]
+                  },
+                  {
+                    "id": 24761,
+                    "parentId": 24659,
+                    "name": "Poschodie - test",
+                    "typeName": "Poschodie",
+                    "description": null,
+                    "gpsLat": 48.170631,
+                    "gpsLong": 17.071875,
+                    "children": null
+                  }
+                ]
+              },
+              {
+                "id": 24647,
+                "parentId": 22623,
+                "name": "test budova",
+                "typeName": "Umiestnenie",
+                "description": null,
+                "gpsLat": 48.170631,
+                "gpsLong": 17.071875,
+                "children": null
+              },
+              {
+                "id": 24762,
+                "parentId": 22623,
+                "name": "Apartmánový dom test",
+                "typeName": "Apartmánový dom ",
+                "description": null,
+                "gpsLat": 48.170631,
+                "gpsLong": 17.071875,
+                "children": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 25120,
+        "parentId": 23779,
+        "name": "Malá šopa 4.2.22",
+        "typeName": "Malá šopa",
+        "description": "test",
+        "gpsLat": 48.1524642,
+        "gpsLong": 17.1159001,
+        "children": null
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "parentId": 0,
+    "name": "SLN-KLČ",
+    "typeName": "Umiestnenie",
+    "description": "Kľačany",
+    "gpsLat": 50.5412,
+    "gpsLong": 15.2536,
+    "children": [
+      {
+        "id": 24721,
+        "parentId": 22,
+        "name": "nazov",
+        "typeName": "Budova",
+        "description": null,
+        "gpsLat": 50.5412,
+        "gpsLong": 15.2536,
+        "children": null
+      },
+      {
+        "id": 101,
+        "parentId": 22,
+        "name": "SVN Výroba plynov",
+        "typeName": "Umiestnenie",
+        "description": "SVN Výroba plynov",
+        "gpsLat": 50.5412,
+        "gpsLong": 15.2536,
+        "children": [
+          {
+            "id": 23892,
+            "parentId": 101,
+            "name": "Budova v depe 3",
+            "typeName": "Budova",
+            "description": "123",
+            "gpsLat": 50.5412,
+            "gpsLong": 15.2536,
+            "children": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 22671,
+    "parentId": 0,
+    "name": "U 71",
+    "typeName": "Umiestnenie",
+    "description": null,
+    "gpsLat": 152.52,
+    "gpsLong": 155.56,
+    "children": null
+  },
+  {
+    "id": 19,
+    "parentId": 0,
+    "name": "SLN-BA",
+    "typeName": "Umiestnenie",
+    "description": "Bratislava",
+    "gpsLat": 49.5412,
+    "gpsLong": 51.1254,
+    "children": [
+      {
+        "id": 24724,
+        "parentId": 19,
+        "name": "budova",
+        "typeName": "Budova",
+        "description": "xx",
+        "gpsLat": 49.5412,
+        "gpsLong": 51.1254,
+        "children": null
+      },
+      {
+        "id": 24791,
+        "parentId": 19,
+        "name": "A_Tomas",
+        "typeName": "Budova",
+        "description": null,
+        "gpsLat": 49.5412,
+        "gpsLong": 51.1254,
+        "children": null
+      },
+      {
+        "id": 25067,
+        "parentId": 19,
+        "name": "Budova test1A",
+        "typeName": "Budova",
+        "description": null,
+        "gpsLat": 49.5412,
+        "gpsLong": 51.1254,
+        "children": null
+      },
+      {
+        "id": 25121,
+        "parentId": 19,
+        "name": "Budova Ra",
+        "typeName": "Budova",
+        "description": null,
+        "gpsLat": 49.5412,
+        "gpsLong": 51.1254,
+        "children": [
+          {
+            "id": 25122,
+            "parentId": 25121,
+            "name": "Poschodie Ra",
+            "typeName": "Poschodie",
+            "description": null,
+            "gpsLat": 49.5412,
+            "gpsLong": 51.1254,
+            "children": [
+              {
+                "id": 25123,
+                "parentId": 25122,
+                "name": "Miestnosť Ra",
+                "typeName": "Miestnosť",
+                "description": null,
+                "gpsLat": 49.5412,
+                "gpsLong": 51.1254,
+                "children": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 24951,
+    "parentId": 0,
+    "name": "U Bašternáka",
+    "typeName": "Apartmánový dom ",
+    "description": null,
+    "gpsLat": 48.1544,
+    "gpsLong": 17.1052,
+    "children": [
+      {
+        "id": 24952,
+        "parentId": 24951,
+        "name": "kumbál na lóve",
+        "typeName": "kutica",
+        "description": null,
+        "gpsLat": 48.1544,
+        "gpsLong": 17.1052,
+        "children": [
+          {
+            "id": 25109,
+            "parentId": 24952,
+            "name": "trezor na dukáty",
+            "typeName": "Miestnosť",
+            "description": null,
+            "gpsLat": 48.1544,
+            "gpsLong": 17.1052,
+            "children": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 23954,
+    "parentId": 0,
+    "name": "A_Funkčné miesto",
+    "typeName": "Funkčné miesto",
+    "description": "Nové umiestnenie",
+    "gpsLat": 48.703628,
+    "gpsLong": 21.256627,
+    "children": null
+  },
+  {
+    "id": 24171,
+    "parentId": 0,
+    "name": "Funkčné miesto 66",
+    "typeName": "Funkčné miesto",
+    "description": null,
+    "gpsLat": 48.703628,
+    "gpsLong": 21.256627,
+    "children": null
+  },
+  {
+    "id": 24985,
+    "parentId": 0,
+    "name": "23",
+    "typeName": "Funkčné miesto",
+    "description": null,
+    "gpsLat": 48.703628,
+    "gpsLong": 21.256627,
+    "children": null
+  },
+  {
+    "id": 24973,
+    "parentId": 0,
+    "name": "Kompresorová stanica 12.11.2021",
+    "typeName": "Kompresorová stanica",
+    "description": "test",
+    "gpsLat": 48.9918784,
+    "gpsLong": 21.2342466,
+    "children": null
+  },
+  {
+    "id": 24957,
+    "parentId": 0,
+    "name": "Bytový priestor 4.11.2021",
+    "typeName": "Bytový priestor",
+    "description": "test",
+    "gpsLat": 48.1443280907674,
+    "gpsLong": 17.28368011572558,
+    "children": null
+  }
+]

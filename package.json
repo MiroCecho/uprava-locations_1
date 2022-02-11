@@ -1,0 +1,50 @@
+{
+  "name": "uprava-locations_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack --watch|webpack serve",
+    "build": "cross-env NODE_ENV=production webpack",
+    "dev": "cross-env NODE_ENV=development webpack --watch",
+    "watch": "webpack --watch",
+    "lint": "eslint src/*.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.9.1",
+    "@typescript-eslint/parser": "^5.9.1",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.2.0",
+    "eslint": "^8.6.0",
+    "express": "^4.17.1",
+    "html-loader": "^2.1.2",
+    "style-loader": "^3.2.1",
+    "ts-loader": "^9.2.5",
+    "typescript": "^4.4.2",
+    "webpack": "^5.51.2",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.7.3"
+  },
+  "dependencies": {
+    "@babel/core": "^7.15.4",
+    "@babel/preset-env": "^7.15.4",
+    "babel-loader": "^8.2.2",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^5.1.0",
+    "bootstrap-icons": "^1.5.0",
+    "cache-bust-loader": "^1.0.7",
+    "class-transformer": "^0.5.1",
+    "file-saver": "^2.0.5",
+    "jszip": "^3.7.1",
+    "local-cors-proxy": "^1.1.0",
+    "ol": "^6.12.0",
+    "points": "^3.2.0",
+    "regenerator-runtime": "^0.13.9",
+    "request": "^2.88.2",
+    "simplify-polyline": "0.0.6",
+    "tippy.js": "^6.2.5"
+  }
+}
