@@ -8,7 +8,7 @@ import "./style/custom.css";
 import { defaults as defautInteractions } from "ol/interaction";
 import { Overlay } from "ol";
 import { Pixel } from "ol/pixel";
-import * as data from "../repository/all_Locations.json";
+import data from "../repository/all_Locations.json";
 import { generatePopupContent } from './generate-popup-content';
 
 // custom scrollbar
