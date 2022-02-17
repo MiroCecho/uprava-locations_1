@@ -6,10 +6,10 @@ import { fromLonLat, toLonLat, get } from "ol/proj";
 import "./style/ol.css";
 import "./style/custom.css";
 import { defaults as defautInteractions } from "ol/interaction";
-import "./style/ol.css";
-import "./style/custom.css";
 import { Overlay } from "ol";
 import { Pixel } from "ol/pixel";
+import * as data from "../repository/all_Locations.json";
+import { generatePopupContent } from './generate-popup-content';
 
 const container:HTMLElement = document.getElementById("popup");
 const content:HTMLElement = document.getElementById("popup-content");
@@ -48,6 +48,8 @@ export const map: Map = new Map({
 });
 map.on("singleclick", evt=> {
     const coordinate:Pixel = evt.coordinate;
-    content.innerHTML = `<div id="popup-content" style="width: 200px;"><div id="eam-info-list"><ul><li title="23" idx="0">23</li><li title="Funkčné miesto 66" idx="1">Funkčné miesto 66</li><li title="A_Funkčné miesto" idx="2">A_Funkčné miesto</li></ul></div></div>`;
+    const detail = generatePopupContent(data);
+    content.innerHTML = `<div id="popup-content" style="width: 200px;"></div>`;
+    content.querySelector('div').appendChild(detail);
     overlay.setPosition(coordinate);
 });

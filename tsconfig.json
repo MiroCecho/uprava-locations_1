@@ -3,6 +3,7 @@
       "outDir": "./public/",
       "sourceMap": true,
       "noImplicitAny": false,
+      "resolveJsonModule": true,
       "module": "CommonJS",
       "target": "es5",
       "jsx": "react",
