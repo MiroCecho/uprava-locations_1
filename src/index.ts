@@ -11,6 +11,10 @@ import { Pixel } from "ol/pixel";
 import * as data from "../repository/all_Locations.json";
 import { generatePopupContent } from './generate-popup-content';
 
+// custom scrollbar
+import SimpleBar from 'simplebar';
+import 'simplebar/dist/simplebar.css';
+
 const container:HTMLElement = document.getElementById("popup");
 const content:HTMLElement = document.getElementById("popup-content");
 const closer:HTMLElement = document.getElementById("popup-closer");
@@ -49,7 +53,8 @@ export const map: Map = new Map({
 map.on("singleclick", evt=> {
     const coordinate:Pixel = evt.coordinate;
     const detail = generatePopupContent(data);
-    content.innerHTML = `<div id="popup-content" style="width: 200px;"></div>`;
+    content.innerHTML = `<div id="popup-content" style="width: 250px;"></div>`;
     content.querySelector('div').appendChild(detail);
     overlay.setPosition(coordinate);
+    new SimpleBar(content.querySelector('div'));
 });

@@ -44,6 +44,7 @@
     "points": "^3.2.0",
     "regenerator-runtime": "^0.13.9",
     "request": "^2.88.2",
+    "simplebar": "^5.3.6",
     "simplify-polyline": "0.0.6",
     "tippy.js": "^6.2.5"
   }
